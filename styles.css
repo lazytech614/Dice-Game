@@ -1,0 +1,94 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+/* body {
+  background-color: #04193d;
+} */
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 3rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+img{
+  animation: spin 0.2s linear;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }100%{
+    transform: rotate(180deg);
+  }
+}
+
+.btn {
+  background-color: #0f8643;
+  height: 50px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 10%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+body {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* CSS rules to stack contents */
+  
+
+  .content-item {
+    /* Adjust styles for each content item as needed */
+    width: 100%; /* Make sure each item takes full width */
+    margin-bottom: 20px; /* Add some space between stacked items */
+  }
+}
